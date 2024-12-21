@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="API Tests Suite">
+    <test name="Login API Test">
+        <classes>
+            <!-- Define the fully qualified name of the test class -->
+            <class name="com.api.tests.LoginAPITest"/>
+        </classes>
+    </test>
+</suite>
