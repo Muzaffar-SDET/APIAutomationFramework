@@ -34,10 +34,10 @@ jobs:
         name: Logs
         path: logs/
 
-    - name: Publish Test Report
-      if: always()
-      uses: turing85/publish-report@v2.1.1
-      with:
-        name: Extent Report
-        path: target/ExtentReport/report.html
+    # - name: Publish Test Report
+    #   if: always()
+    #   uses: turing85/publish-report@v2.1.1
+    #   with:
+    #     name: Extent Report
+    #     path: target/ExtentReport/report.html
       
