@@ -9,6 +9,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      checks: write
+      issues: write
 
     steps:
     - uses: actions/checkout@v4
@@ -23,8 +27,17 @@ jobs:
     - name: Execute Tests
       run: mvn clean test
 
-    - name: Upload ExtentReport HTML
+    - name: Upload Log file
+      if: always()
       uses: actions/upload-artifact@v4.5.0
       with:
-        name: extent-report
-        path: target/ExtentReport/
+        name: Logs
+        path: logs/
+
+    - name: Publish Test Report
+      if: always()
+      uses: turing85/publish-report@v2.1.1
+      with:
+        name: Extent Report
+        path: target/ExtentReport/report.html
+      
