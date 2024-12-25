@@ -24,7 +24,7 @@ jobs:
       run: mvn clean test
 
     - name: Upload ExtentReport HTML
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4.5.0
       with:
         name: extent-report
         path: target/ExtentReport/report.html
