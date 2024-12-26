@@ -52,7 +52,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: ExtentReport
-        path: target/ExtentReport/
+        path: target/
     
     - name: Publish Test Report
       if: always()
