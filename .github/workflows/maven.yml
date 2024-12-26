@@ -62,6 +62,9 @@ jobs:
     #     path: target/surefire-reports/junitreports/TEST-*.xml
     #     reporter: java-junit
 
+    - name: Wait for Report Generation
+      run: sleep 10
+
     - name: Verify Report File
       run: |
           echo "Checking if report.html exists:"
