@@ -25,7 +25,7 @@ jobs:
         cache: maven
 
     - name: Execute Tests
-      run: mvn clean test
+      run: mvn test
       
     # - name: List files for debugging
     #   run: ls -R target
