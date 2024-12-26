@@ -34,7 +34,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: ExtentReport
-        path: target/ExtentReport/report.html
+        path: ./ExtentReport/*.html
 
     - name: Upload Log file
       if: always()
