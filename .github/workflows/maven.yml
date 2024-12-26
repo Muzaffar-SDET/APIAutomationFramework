@@ -53,6 +53,7 @@ jobs:
       with:
         name: ExtentReport
         path: target/ExtentReport/*.html
+        reporter: java-junit
     
     - name: Publish Test Report
       if: always()
