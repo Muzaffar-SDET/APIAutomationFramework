@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="API Tests Suite">
-    <test name="Login API Test">
+    <test name="SmokeTests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="regression"/>
+            </run>
+        </groups>
         <classes>
-            <!-- Define the fully qualified name of the test class -->
             <class name="com.api.tests.LoginAPITest"/>
+            <class name="com.api.tests.ForgotPasswordAPITest"/>
+            <class name="com.api.tests.ResetPasswordAPITest"/>
+            <class name="com.api.tests.SignupAPITest"/>
+            <class name="com.api.tests.UpdateProfileAPITest"/>
+            <class name="com.api.tests.UserProfileManagementAPITest"/>
         </classes>
     </test>
 </suite>

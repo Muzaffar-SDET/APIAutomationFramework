@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class LoginAPITest {
 
-    @Test(description = "Authentication Service Test: Verify if Login endpoint is working")
+    @Test(groups = {"smoke", "regression"}, description = "Authentication Service Test: Verify if Login endpoint is working")
     public void loginTest(){
         //1. Hardcoding version
 //        AuthService authService = new AuthService();

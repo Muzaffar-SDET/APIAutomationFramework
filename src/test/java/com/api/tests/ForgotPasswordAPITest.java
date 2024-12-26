@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ForgotPasswordAPITest {
-    @Test(description = "Authentication Service Test: Verify if Forgot Password API is working")
+    @Test(groups = "regression", description = "Authentication Service Test: Verify if Forgot Password API is working")
     public void forgotPassword(){
         AuthService authService = new AuthService();
         Response response = authService.forgotPassword("muzaffar988@gmail.com");

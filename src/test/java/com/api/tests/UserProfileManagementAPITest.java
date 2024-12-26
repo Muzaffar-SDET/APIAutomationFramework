@@ -10,7 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class UserProfileManagementAPITest {
-    @Test(description = "User Management Service: Verify Profile API is working")
+    @Test(groups = "regression", description = "User Management Service: Verify Profile API is working")
     public void getProfileInfoTest(){
         //To get Profile info we need to first login to get the token
         AuthService authService = new AuthService();

@@ -11,7 +11,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class UpdateProfileAPITest {
-    @Test(description = "Verifying if Profile update API is working")
+    @Test(groups = "regression", description = "Verifying if Profile update API is working")
     public void profileUpdate(){
         //Logging in to get token
         AuthService authService = new AuthService();

@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class ResetPasswordAPITest {
 
-    @Test(description = "Authentication Service Test: Verify if Reset Password API is working")
+    @Test(groups = "regression", description = "Authentication Service Test: Verify if Reset Password API is working")
     public void resetPassword(){
         LoginRequest loginRequest = new LoginRequest("Muzaffar", "Automation1234");
         AuthService authService = new AuthService();
