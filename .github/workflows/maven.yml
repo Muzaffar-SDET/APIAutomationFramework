@@ -30,12 +30,6 @@ jobs:
     - name: List files for debugging
       run: ls -R target
 
-    - name: Publish Extent Report
-      uses: actions/upload-artifact@v4
-      with:
-        name: ExtentReport
-        path: ./ExtentReport/*.html
-
     - name: Upload Log file
       if: always()
       uses: actions/upload-artifact@v4.5.0
@@ -52,6 +46,13 @@ jobs:
           test-output/reports/
           target/surefire-reports/
           logs/
+
+    - name: Publish Extent Report
+      if: always()
+      uses: dorny/test-reporter@v1
+      with:
+        name: ExtentReport
+        path: target/ExtentReport/*.html
     
     - name: Publish Test Report
       if: always()
