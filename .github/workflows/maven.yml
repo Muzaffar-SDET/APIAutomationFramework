@@ -26,6 +26,15 @@ jobs:
 
     - name: Execute Tests
       run: mvn clean test
+      
+    - name: List files for debugging
+      run: ls -R target
+
+    - name: Publish Extent Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: ExtentReport
+        path: target/ExtentReport/report.html
 
     - name: Upload Log file
       if: always()
@@ -51,9 +60,3 @@ jobs:
         name: TestNG Results
         path: target/surefire-reports/junitreports/TEST-*.xml
         reporter: java-junit
-
-    - name: Publish Extent Report
-      uses: actions/upload-artifact@v4
-      with:
-        name: ExtentReport
-        path: target/ExtentReport/report.html
