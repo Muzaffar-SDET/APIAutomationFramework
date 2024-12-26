@@ -27,53 +27,38 @@ jobs:
     - name: Execute Tests
       run: mvn test
       
-    # - name: List files for debugging
-    #   run: ls -R target
+    - name: List files for debugging
+      run: ls -R target
 
-    # - name: Upload Log file
-    #   if: always()
-    #   uses: actions/upload-artifact@v4.5.0
-    #   with:
-    #     name: Logs
-    #     path: logs/
+    - name: Upload Log file
+      if: always()
+      uses: actions/upload-artifact@v4.5.0
+      with:
+        name: Logs
+        path: logs/
 
-    # - name: Upload test results
-    #   if: always()
-    #   uses: actions/upload-artifact@v3
-    #   with:
-    #     name: test-results
-    #     path: |
-    #       test-output/reports/
-    #       target/surefire-reports/
-    #       logs/
+    - name: Upload test results
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results
+        path: |
+          test-output/reports/
+          target/surefire-reports/
+          logs/
 
-    # - name: Publish Extent Report
-    #   if: always()
-    #   uses: actions/upload-artifact@v3
-    #   with:
-    #     name: ExtentReport
-    #     path: target/
-    
-    # - name: Publish Test Report
-    #   if: always()
-    #   uses: dorny/test-reporter@v1
-    #   with:
-    #     name: TestNG Results
-    #     path: target/surefire-reports/junitreports/TEST-*.xml
-    #     reporter: java-junit
-
-    - name: Wait for Report Generation
-      run: sleep 10
-
-    - name: Verify Report File
-      run: |
-          echo "Checking if report.html exists:"
-          ls -R target/ExtentReport || echo "Directory not found"
-          ls -l target/ExtentReport/report.html || echo "File not found"
-
-    - name: Upload Extent Report
+    - name: Publish Extent Report
+      if: always()
       uses: actions/upload-artifact@v3
       with:
         name: ExtentReport
         path: target/ExtentReport/report.html
-        if-no-files-found: ignore
+        if-no-files-found: warn
+    
+    - name: Publish Test Report
+      if: always()
+      uses: dorny/test-reporter@v1
+      with:
+        name: TestNG Results
+        path: target/surefire-reports/junitreports/TEST-*.xml
+        reporter: java-junit
