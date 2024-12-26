@@ -27,6 +27,9 @@ jobs:
     - name: Execute Tests
       run: mvn clean test
 
+    - name: List report files
+      run: ls -R target/
+
     - name: Upload Log file
       if: always()
       uses: actions/upload-artifact@v4.5.0
@@ -52,10 +55,18 @@ jobs:
         path: target/surefire-reports/junitreports/TEST-*.xml
         reporter: java-junit
 
-    # - name: Publish Test Report
-    #   if: always()
-    #   uses: turing85/publish-report@v2.1.1
-    #   with:
-    #     name: Extent Report
-    #     path: target/ExtentReport/report.html
+    - name: Upload HTML Report
+      uses: actions/upload-artifact@v4.5.0
+      with:
+        name: test-report
+        path: target/ExtentReport/report.html
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./target/ExtentReport
       
