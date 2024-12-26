@@ -49,11 +49,10 @@ jobs:
 
     - name: Publish Extent Report
       if: always()
-      uses: dorny/test-reporter@v1
+      uses: actions/upload-artifact@v3
       with:
         name: ExtentReport
-        path: target/ExtentReport/*.html
-        reporter: java-junit
+        path: target/ExtentReport/
     
     - name: Publish Test Report
       if: always()
