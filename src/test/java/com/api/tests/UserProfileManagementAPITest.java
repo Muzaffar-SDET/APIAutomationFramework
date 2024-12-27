@@ -7,7 +7,10 @@ import com.api.models.response.LoginResponse;
 import com.api.models.response.UserProfileResponse;
 import io.restassured.response.Response;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
+@Listeners(com.api.listeners.TestListener.class)
 
 public class UserProfileManagementAPITest {
     @Test(groups = "regression", description = "User Management Service: Verify Profile API is working")
