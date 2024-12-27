@@ -5,8 +5,10 @@ import com.api.models.request.SignupRequest;
 import com.github.javafaker.Faker;
 import io.restassured.response.Response;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(com.api.listeners.TestListener.class)
 
 public class SignupAPITest {
 

@@ -3,8 +3,10 @@ package com.api.tests;
 import com.api.base.AuthService;
 import io.restassured.response.Response;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(com.api.listeners.TestListener.class)
 public class ForgotPasswordAPITest {
     @Test(groups = "regression", description = "Authentication Service Test: Verify if Forgot Password API is working")
     public void forgotPassword(){

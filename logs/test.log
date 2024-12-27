@@ -5913,3 +5913,2620 @@ Connection=keep-alive
 }
 17:55:07.152 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTest
 17:55:07.152 [main] INFO  com.api.listeners.TestListener - Test Execution Finished
+22:18:12.868 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:18:12.868 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:18:12.868 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Racheal",
+  "lastName": "Haag",
+  "password": "****",
+  "mobileNumber": "1722034948",
+  "email": "Racheal.Haag@gmail.com",
+  "username": "oliver.grimes"
+}
+22:18:13.806 [main] WARN  com.api.filters.LoggingFilter - Failed to parse request body for masking. Returning original body.
+22:18:13.806 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:18:13.806 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Fri, 27 Dec 2024 03:18:12 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:18:13.819 [main] INFO  com.api.filters.LoggingFilter - Response Body: User registered successfully!
+22:19:43.319 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:19:43.319 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:19:43.319 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Elwood",
+  "lastName": "Roob",
+  "password": "****",
+  "mobileNumber": "7040078278",
+  "email": "Elwood.Roob@gmail.com",
+  "username": "travis.herman"
+}
+22:19:44.268 [main] WARN  com.api.filters.LoggingFilter - Failed to parse request body for masking. Returning original body.
+22:19:44.268 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:19:44.268 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Fri, 27 Dec 2024 03:19:43 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:19:44.280 [main] INFO  com.api.filters.LoggingFilter - Response Body: User registered successfully!
+22:27:07.586 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:27:07.586 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:27:07.586 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Brunilda",
+  "lastName": "Gutmann",
+  "password": "****",
+  "mobileNumber": "0254167010",
+  "email": "Brunilda.Gutmann@gmail.com",
+  "username": "merlin.boyle"
+}
+22:27:08.571 [main] WARN  com.api.filters.LoggingFilter - Failed to parse request body for masking. Returning original body.
+22:27:08.571 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:27:08.571 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Fri, 27 Dec 2024 03:27:07 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:27:08.583 [main] INFO  com.api.filters.LoggingFilter - Response Body: User registered successfully!
+22:27:17.726 [main] INFO  com.api.listeners.TestListener - Test Execution Started
+22:27:17.887 [main] INFO  com.api.listeners.TestListener - Test Started: loginTest
+22:27:18.756 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:27:18.756 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:27:18.756 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:27:19.669 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:27:19.669 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:27:18 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:27:19.692 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDAzOCwiZXhwIjoxNzM1MjczNjM4fQ.-DRhUAi5G2aKylQmbwRrSuCh6b5dYGaOUeZ9OFtpb5M",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:27:19.743 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+22:27:19.743 [main] INFO  com.api.listeners.TestListener - Test Execution Finished
+22:28:12.060 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:28:12.062 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:28:12.062 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Maria",
+  "lastName": "Stehr",
+  "password": "****",
+  "mobileNumber": "2784949944",
+  "email": "Maria.Stehr@gmail.com",
+  "username": "blair.lockman"
+}
+22:28:12.985 [main] WARN  com.api.filters.LoggingFilter - Failed to parse request body for masking. Returning original body.
+22:28:13.001 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:28:13.001 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Fri, 27 Dec 2024 03:28:12 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:28:13.002 [main] INFO  com.api.filters.LoggingFilter - Response Body: User registered successfully!
+22:29:11.621 [main] INFO  com.api.listeners.TestListener - Test Execution Started
+22:29:11.788 [TestNG-test-SmokeTests-3] INFO  com.api.listeners.TestListener - Test Started: resetPassword
+22:29:11.788 [TestNG-test-SmokeTests-4] INFO  com.api.listeners.TestListener - Test Started: signupTest
+22:29:11.788 [TestNG-test-SmokeTests-1] INFO  com.api.listeners.TestListener - Test Started: loginTest
+22:29:11.788 [TestNG-test-SmokeTests-2] INFO  com.api.listeners.TestListener - Test Started: forgotPassword
+22:29:12.770 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:29:12.770 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:29:12.770 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:29:12.770 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:29:12.771 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:29:12.771 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:29:12.771 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:29:12.771 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:29:12.771 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Cody",
+  "lastName": "DuBuque",
+  "password": "****",
+  "mobileNumber": "5410508944",
+  "email": "Cody.DuBuque@gmail.com",
+  "username": "lindsay.stamm"
+}
+22:29:12.771 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Request PayLoad: {"email": "muzaffar988@gmail.com"}
+22:29:12.771 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:29:12.772 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:29:13.731 [TestNG-test-SmokeTests-4] WARN  com.api.filters.LoggingFilter - Failed to parse request body for masking. Returning original body.
+22:29:13.732 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:29:13.732 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Fri, 27 Dec 2024 03:29:12 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:29:13.741 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Body: User registered successfully!
+22:29:13.741 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:29:13.741 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:29:12 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:29:13.741 [TestNG-test-SmokeTests-4] INFO  com.api.listeners.TestListener - Test Passed: signupTest
+22:29:13.756 [TestNG-test-SmokeTests-4] INFO  com.api.listeners.TestListener - Test Started: profileUpdate
+22:29:13.762 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:29:13.762 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:29:13.762 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:29:13.766 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDE1MiwiZXhwIjoxNzM1MjczNzUyfQ.vyPseS1fy15HWz_OTO5Lw-7y_KZ5MrTt9GOnKLw_lF4",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:29:13.780 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:29:13.780 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:29:12 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:29:13.780 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDE1MiwiZXhwIjoxNzM1MjczNzUyfQ.vyPseS1fy15HWz_OTO5Lw-7y_KZ5MrTt9GOnKLw_lF4",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:29:13.819 [TestNG-test-SmokeTests-1] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+22:29:13.824 [TestNG-test-SmokeTests-1] INFO  com.api.listeners.TestListener - Test Started: getProfileInfoTest
+22:29:13.830 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:29:13.831 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:29:13.831 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:29:13.843 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:29:13.843 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDE1MiwiZXhwIjoxNzM1MjczNzUyfQ.vyPseS1fy15HWz_OTO5Lw-7y_KZ5MrTt9GOnKLw_lF4
+Content-Type=application/json
+22:29:13.843 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "newPassword": "Automation12345",
+  "confirmPassword": "Automation12345",
+  "token": "****"
+}
+22:29:14.388 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - STATUS CODE: 400
+22:29:14.388 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:29:13 GMT
+Connection=close
+22:29:14.388 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "message": "Invalid reset token"
+}
+22:29:14.388 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:29:14.388 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:29:13 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:29:14.398 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDE1MywiZXhwIjoxNzM1MjczNzUzfQ.NIMyy5IlnM-lst4-3AsSZabK-BFNeUYD1wvMhcoKwkQ",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:29:14.412 [TestNG-test-SmokeTests-3] ERROR com.api.listeners.TestListener - Test Failed: resetPassword
+22:29:14.414 [TestNG-test-SmokeTests-3] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1419) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1383) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1429) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.ResetPasswordAPITest.resetPassword(ResetPasswordAPITest.java:27) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+22:29:14.458 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:29:14.458 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDE1MywiZXhwIjoxNzM1MjczNzUzfQ.NIMyy5IlnM-lst4-3AsSZabK-BFNeUYD1wvMhcoKwkQ
+Accept=*/*
+Content-Type=application/json
+22:29:14.458 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Muzaffar1",
+  "lastName": "Muzaffar1",
+  "mobileNumber": "8747659345",
+  "email": "muzaffar12234@gmail.com"
+}
+22:29:14.464 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:29:14.464 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:29:13 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:29:14.466 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDE1MywiZXhwIjoxNzM1MjczNzUzfQ.NIMyy5IlnM-lst4-3AsSZabK-BFNeUYD1wvMhcoKwkQ",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:29:14.469 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:29:14.469 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDE1MywiZXhwIjoxNzM1MjczNzUzfQ.NIMyy5IlnM-lst4-3AsSZabK-BFNeUYD1wvMhcoKwkQ
+Accept=*/*
+22:29:14.469 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request PayLoad: null
+22:29:15.003 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:29:15.003 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:29:14 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:29:15.003 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "firstName": "Muzaffar1",
+    "lastName": "Muzaffar1",
+    "mobileNumber": "8747659345"
+}
+22:29:15.003 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:29:15.003 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:29:14 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:29:15.003 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "firstName": "Muzaffar1",
+    "lastName": "Muzaffar1",
+    "mobileNumber": "8747659345"
+}
+22:29:15.019 [TestNG-test-SmokeTests-1] ERROR com.api.listeners.TestListener - Test Failed: getProfileInfoTest
+22:29:15.019 [TestNG-test-SmokeTests-4] INFO  com.api.listeners.TestListener - Test Passed: profileUpdate
+22:29:15.020 [TestNG-test-SmokeTests-1] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [Muzaffar] but found [Muzaffar1]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:656) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:666) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.UserProfileManagementAPITest.getProfileInfoTest(UserProfileManagementAPITest.java:27) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+22:29:15.602 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - STATUS CODE: 401
+22:29:15.602 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=170
+Date=Fri, 27 Dec 2024 03:29:14 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:29:15.602 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "timestamp": "Fri Dec 27 03:29:14 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+22:29:15.614 [TestNG-test-SmokeTests-2] ERROR com.api.listeners.TestListener - Test Failed: forgotPassword
+22:29:15.614 [TestNG-test-SmokeTests-2] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1419) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1383) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1429) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.ForgotPasswordAPITest.forgotPassword(ForgotPasswordAPITest.java:14) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+22:29:15.635 [main] INFO  com.api.listeners.TestListener - Test Execution Finished
+22:30:15.282 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:30:15.285 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:30:15.285 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:30:16.219 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:30:16.219 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:30:15 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:30:16.252 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDIxNSwiZXhwIjoxNzM1MjczODE1fQ.L8o0Zmx9ps7uCMKLG3RFkD1vdnD9A09G9hkvzoJuSM0",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:30:16.302 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:30:16.302 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDIxNSwiZXhwIjoxNzM1MjczODE1fQ.L8o0Zmx9ps7uCMKLG3RFkD1vdnD9A09G9hkvzoJuSM0
+Accept=*/*
+Content-Type=application/json
+22:30:16.302 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Muzaffar1",
+  "lastName": "Muzaffar1",
+  "mobileNumber": "8747659345",
+  "email": "muzaffar12234@gmail.com"
+}
+22:30:16.858 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:30:16.858 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:30:16 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:30:16.858 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "firstName": "Muzaffar1",
+    "lastName": "Muzaffar1",
+    "mobileNumber": "8747659345"
+}
+22:31:51.886 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:31:51.889 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:31:51.891 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:31:52.781 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:31:52.781 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:31:51 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:31:52.824 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDMxMSwiZXhwIjoxNzM1MjczOTExfQ.YB-fsdMwl1hK2JA1Y1idpNYghjHJWwdn9z3JksnYLcI",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:31:52.885 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:31:52.885 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDMxMSwiZXhwIjoxNzM1MjczOTExfQ.YB-fsdMwl1hK2JA1Y1idpNYghjHJWwdn9z3JksnYLcI
+Accept=*/*
+Content-Type=application/json
+22:31:52.885 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Muzaffar1",
+  "lastName": "Muzaffar1",
+  "mobileNumber": "8747659345",
+  "email": "muzaffar12234@gmail.com"
+}
+22:31:53.455 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:31:53.455 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:31:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:31:53.455 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "firstName": "Muzaffar1",
+    "lastName": "Muzaffar1",
+    "mobileNumber": "8747659345"
+}
+22:34:17.462 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:34:17.464 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:34:17.464 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:34:28.345 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:34:28.345 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:34:17 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:34:28.373 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDQ1NywiZXhwIjoxNzM1Mjc0MDU3fQ.opjGiLJ1JOkHAWimSJJhUBloTR7S4XOdORz_-fcq8XI",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:34:32.870 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:34:32.872 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDQ1NywiZXhwIjoxNzM1Mjc0MDU3fQ.opjGiLJ1JOkHAWimSJJhUBloTR7S4XOdORz_-fcq8XI
+Accept=*/*
+Content-Type=application/json
+22:34:32.872 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Muzaffar1",
+  "lastName": "Muzaffar1",
+  "mobileNumber": "8747659345",
+  "email": "muzaffar12234@gmail.com"
+}
+22:34:33.442 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:34:33.442 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:34:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:34:33.442 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "firstName": "Muzaffar1",
+    "lastName": "Muzaffar1",
+    "mobileNumber": "8747659345"
+}
+22:35:15.715 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:35:15.717 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:35:15.717 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:35:16.676 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:35:16.676 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:35:15 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:35:16.705 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDUxNSwiZXhwIjoxNzM1Mjc0MTE1fQ.5GtnBJIafsn_gkN-H315v4hLRSND-fTeR8suqOyEdjw",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:35:16.760 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:35:16.760 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDUxNSwiZXhwIjoxNzM1Mjc0MTE1fQ.5GtnBJIafsn_gkN-H315v4hLRSND-fTeR8suqOyEdjw
+Accept=*/*
+Content-Type=application/json
+22:35:16.760 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Muzaffar1",
+  "lastName": "Muzaffar1",
+  "mobileNumber": "8747659345",
+  "email": "muzaffar12234@gmail.com"
+}
+22:35:17.335 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:35:17.335 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:35:16 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:35:17.337 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "firstName": "Muzaffar1",
+    "lastName": "Muzaffar1",
+    "mobileNumber": "8747659345"
+}
+22:35:25.882 [main] INFO  com.api.listeners.TestListener - Test Execution Started
+22:35:26.052 [main] INFO  com.api.listeners.TestListener - Test Started: loginTest
+22:36:06.139 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:36:06.139 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:36:06.139 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:36:07.127 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:36:07.127 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:36:06 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:36:07.159 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDU2NiwiZXhwIjoxNzM1Mjc0MTY2fQ.MfVDsvK5ej79RTGrqjRH3eltZ5XSAeK4MSbDjVB8C-o",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:36:07.206 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+22:36:07.212 [main] INFO  com.api.listeners.TestListener - Test Execution Finished
+22:36:46.322 [main] INFO  com.api.listeners.TestListener - Test Execution Started
+22:36:46.502 [main] INFO  com.api.listeners.TestListener - Test Started: loginTest
+22:36:47.352 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:36:47.352 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:36:47.352 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:36:48.294 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:36:48.294 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:36:47 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:36:48.302 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDYwNywiZXhwIjoxNzM1Mjc0MjA3fQ.UXqL_iLrVYV9YtsrqzrzIAAK252H4MsqN8pOy3P3LO0",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:36:48.349 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+22:36:48.352 [main] INFO  com.api.listeners.TestListener - Test Execution Finished
+22:42:39.310 [main] INFO  com.api.listeners.TestListener - Test Execution Started
+22:42:39.589 [main] INFO  com.api.listeners.TestListener - Test Started: loginTest
+22:42:40.939 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:42:40.939 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:42:40.939 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:42:42.024 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:42:42.024 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:42:41 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:42:42.047 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MDk2MSwiZXhwIjoxNzM1Mjc0NTYxfQ.HZmhmsc9sGYBRKXZz5A2hhaRxG5wNLEnZnF8wtdCjtQ",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:42:42.085 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+22:42:42.087 [main] INFO  com.api.listeners.TestListener - Test Execution Finished
+22:43:03.523 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:43:03.525 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:43:03.525 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Rosendo",
+  "lastName": "Carroll",
+  "password": "****",
+  "mobileNumber": "4144019500",
+  "email": "Rosendo.Carroll@gmail.com",
+  "username": "alexander.ferry"
+}
+22:43:04.502 [main] WARN  com.api.filters.LoggingFilter - Failed to parse request body for masking. Returning original body.
+22:43:04.502 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:43:04.502 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Fri, 27 Dec 2024 03:43:03 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:43:04.518 [main] INFO  com.api.filters.LoggingFilter - Response Body: User registered successfully!
+22:43:20.624 [main] INFO  com.api.listeners.TestListener - Test Execution Started
+22:43:20.785 [main] INFO  com.api.listeners.TestListener - Test Started: loginTest
+22:43:21.623 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:43:21.623 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:43:21.623 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:43:22.602 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:43:22.602 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:43:21 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:43:22.626 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTAwMSwiZXhwIjoxNzM1Mjc0NjAxfQ.2Qov8yXMqqsDcD_N3ZdtYDmPLHoOMc6conaAy3wkltc",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:43:22.664 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+22:43:22.666 [main] INFO  com.api.listeners.TestListener - Test Execution Finished
+22:44:37.352 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:44:37.352 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:44:37.352 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Kenneth",
+  "lastName": "Strosin",
+  "password": "****",
+  "mobileNumber": "11561112156",
+  "email": "Kenneth.Strosin@gmail.com",
+  "username": "janee.leuschke"
+}
+22:44:38.202 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 401
+22:44:38.202 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=170
+Date=Fri, 27 Dec 2024 03:44:37 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:44:38.218 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "timestamp": "Fri Dec 27 03:44:37 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+22:45:04.718 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:45:04.718 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:45:04.718 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:45:05.672 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:45:05.672 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:45:04 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:45:05.716 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTEwNCwiZXhwIjoxNzM1Mjc0NzA0fQ.t2tImrX3psmMwDZeS53XpPv1yMtPtB3tSUYM2Gxq-dU",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:45:05.752 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:45:05.752 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTEwNCwiZXhwIjoxNzM1Mjc0NzA0fQ.t2tImrX3psmMwDZeS53XpPv1yMtPtB3tSUYM2Gxq-dU
+Accept=*/*
+Content-Type=application/json
+22:45:05.752 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Muzaffar1",
+  "lastName": "Muzaffar1",
+  "mobileNumber": "8747659345",
+  "email": "muzaffar12234@gmail.com"
+}
+22:45:06.323 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:45:06.323 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:45:05 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:45:06.323 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "firstName": "Muzaffar1",
+    "lastName": "Muzaffar1",
+    "mobileNumber": "8747659345"
+}
+22:47:04.538 [main] INFO  com.api.listeners.TestListener - Test Execution Started
+22:47:04.714 [main] INFO  com.api.listeners.TestListener - Test Started: signupTest
+22:47:05.710 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:47:05.710 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:47:05.710 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Rudolf",
+  "lastName": "Durgan",
+  "password": "****",
+  "mobileNumber": "14249353795",
+  "email": "Rudolf.Durgan@gmail.com",
+  "username": "romeo.daugherty"
+}
+22:47:06.555 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 401
+22:47:06.555 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=170
+Date=Fri, 27 Dec 2024 03:47:05 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:47:06.571 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "timestamp": "Fri Dec 27 03:47:05 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+22:47:06.587 [main] ERROR com.api.listeners.TestListener - Test Failed: signupTest
+22:47:06.587 [main] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1419) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1383) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1429) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.SignupAPITest.signupTest(SignupAPITest.java:43) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+22:47:06.600 [main] INFO  com.api.listeners.TestListener - Test Execution Finished
+22:47:31.719 [main] INFO  com.api.listeners.TestListener - Test Execution Started
+22:47:31.892 [main] INFO  com.api.listeners.TestListener - Test Started: profileUpdate
+22:47:32.785 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:47:32.785 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:47:32.785 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:47:33.737 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:47:33.737 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:47:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:47:33.768 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTI1MiwiZXhwIjoxNzM1Mjc0ODUyfQ.6XFORYNkgm7r2OyHeGzBcpgNkL1U4mMXIzRMGhmMSYc",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:47:33.809 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:47:33.809 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTI1MiwiZXhwIjoxNzM1Mjc0ODUyfQ.6XFORYNkgm7r2OyHeGzBcpgNkL1U4mMXIzRMGhmMSYc
+Accept=*/*
+Content-Type=application/json
+22:47:33.809 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Muzaffar1",
+  "lastName": "Muzaffar1",
+  "mobileNumber": "8747659345",
+  "email": "muzaffar12234@gmail.com"
+}
+22:47:34.361 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:47:34.361 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:47:33 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:47:34.361 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "firstName": "Muzaffar1",
+    "lastName": "Muzaffar1",
+    "mobileNumber": "8747659345"
+}
+22:47:34.368 [main] INFO  com.api.listeners.TestListener - Test Passed: profileUpdate
+22:47:34.376 [main] INFO  com.api.listeners.TestListener - Test Execution Finished
+22:48:06.485 [main] INFO  com.api.listeners.TestListener - Test Execution Started
+22:48:06.634 [TestNG-test-SmokeTests-2] INFO  com.api.listeners.TestListener - Test Started: forgotPassword
+22:48:06.634 [TestNG-test-SmokeTests-4] INFO  com.api.listeners.TestListener - Test Started: signupTest
+22:48:06.634 [TestNG-test-SmokeTests-3] INFO  com.api.listeners.TestListener - Test Started: resetPassword
+22:48:06.634 [TestNG-test-SmokeTests-1] INFO  com.api.listeners.TestListener - Test Started: loginTest
+22:48:07.580 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:48:07.580 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:48:07.580 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:48:07.580 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:48:07.580 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:48:07.580 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:48:07.580 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Jame",
+  "lastName": "Emmerich",
+  "password": "****",
+  "mobileNumber": "5726678208",
+  "email": "Jame.Emmerich@gmail.com",
+  "username": "aaron.willms"
+}
+22:48:07.580 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:48:07.580 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:48:07.580 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:48:07.581 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Request PayLoad: {"email": "muzaffar988@gmail.com"}
+22:48:07.581 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:48:08.616 [TestNG-test-SmokeTests-4] WARN  com.api.filters.LoggingFilter - Failed to parse request body for masking. Returning original body.
+22:48:08.617 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:48:08.617 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Fri, 27 Dec 2024 03:48:07 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:48:08.617 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:48:08.617 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:48:08.617 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:48:07 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:48:08.617 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:48:07 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:48:08.630 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Body: User registered successfully!
+22:48:08.642 [TestNG-test-SmokeTests-4] INFO  com.api.listeners.TestListener - Test Passed: signupTest
+22:48:08.648 [TestNG-test-SmokeTests-4] INFO  com.api.listeners.TestListener - Test Started: profileUpdate
+22:48:08.652 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTI4NywiZXhwIjoxNzM1Mjc0ODg3fQ.SL9ZxwCuic46wePJtH60SXtF_4ZdGjCanQ2dAvDGgnY",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:48:08.652 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTI4NywiZXhwIjoxNzM1Mjc0ODg3fQ.SL9ZxwCuic46wePJtH60SXtF_4ZdGjCanQ2dAvDGgnY",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:48:08.656 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:48:08.656 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:48:08.656 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:48:08.703 [TestNG-test-SmokeTests-1] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+22:48:08.710 [TestNG-test-SmokeTests-1] INFO  com.api.listeners.TestListener - Test Started: getProfileInfoTest
+22:48:08.713 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:48:08.713 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTI4NywiZXhwIjoxNzM1Mjc0ODg3fQ.SL9ZxwCuic46wePJtH60SXtF_4ZdGjCanQ2dAvDGgnY
+Content-Type=application/json
+22:48:08.716 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "newPassword": "Automation12345",
+  "confirmPassword": "Automation12345",
+  "token": "****"
+}
+22:48:08.716 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:48:08.716 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:48:08.716 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:48:09.251 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - STATUS CODE: 400
+22:48:09.251 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:48:08 GMT
+Connection=close
+22:48:09.251 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "message": "Invalid reset token"
+}
+22:48:09.251 [TestNG-test-SmokeTests-3] ERROR com.api.listeners.TestListener - Test Failed: resetPassword
+22:48:09.251 [TestNG-test-SmokeTests-3] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1419) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1383) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1429) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.ResetPasswordAPITest.resetPassword(ResetPasswordAPITest.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+22:48:09.385 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:48:09.385 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:48:08 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:48:09.385 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTI4OCwiZXhwIjoxNzM1Mjc0ODg4fQ.cE6iFIv1s4luZySuXmEJEYd7U4fh5vUNkukUrbt5dN4",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:48:09.402 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:48:09.405 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:48:08 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:48:09.405 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTI4OCwiZXhwIjoxNzM1Mjc0ODg4fQ.cE6iFIv1s4luZySuXmEJEYd7U4fh5vUNkukUrbt5dN4",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:48:09.411 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:48:09.411 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTI4OCwiZXhwIjoxNzM1Mjc0ODg4fQ.cE6iFIv1s4luZySuXmEJEYd7U4fh5vUNkukUrbt5dN4
+Accept=*/*
+22:48:09.411 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request PayLoad: null
+22:48:09.418 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:48:09.418 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTI4OCwiZXhwIjoxNzM1Mjc0ODg4fQ.cE6iFIv1s4luZySuXmEJEYd7U4fh5vUNkukUrbt5dN4
+Accept=*/*
+Content-Type=application/json
+22:48:09.418 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Muzaffar1",
+  "lastName": "Muzaffar1",
+  "mobileNumber": "8747659345",
+  "email": "muzaffar12234@gmail.com"
+}
+22:48:09.952 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:48:09.952 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:48:09 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:48:09.952 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "firstName": "Muzaffar1",
+    "lastName": "Muzaffar1",
+    "mobileNumber": "8747659345"
+}
+22:48:09.957 [TestNG-test-SmokeTests-1] ERROR com.api.listeners.TestListener - Test Failed: getProfileInfoTest
+22:48:09.957 [TestNG-test-SmokeTests-1] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [Muzaffar] but found [Muzaffar1]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:656) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:666) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.UserProfileManagementAPITest.getProfileInfoTest(UserProfileManagementAPITest.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+22:48:09.971 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:48:09.971 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:48:09 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:48:09.973 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "firstName": "Muzaffar1",
+    "lastName": "Muzaffar1",
+    "mobileNumber": "8747659345"
+}
+22:48:09.973 [TestNG-test-SmokeTests-4] INFO  com.api.listeners.TestListener - Test Passed: profileUpdate
+22:48:10.504 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - STATUS CODE: 401
+22:48:10.504 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=170
+Date=Fri, 27 Dec 2024 03:48:09 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:48:10.504 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "timestamp": "Fri Dec 27 03:48:09 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+22:48:10.504 [TestNG-test-SmokeTests-2] ERROR com.api.listeners.TestListener - Test Failed: forgotPassword
+22:48:10.504 [TestNG-test-SmokeTests-2] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1419) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1383) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1429) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.ForgotPasswordAPITest.forgotPassword(ForgotPasswordAPITest.java:16) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+22:48:10.536 [main] INFO  com.api.listeners.TestListener - Test Execution Finished
+22:49:23.287 [main] INFO  com.api.listeners.TestListener - Test Execution Started
+22:49:23.438 [TestNG-test-SmokeTests-3] INFO  com.api.listeners.TestListener - Test Started: resetPassword
+22:49:23.438 [TestNG-test-SmokeTests-4] INFO  com.api.listeners.TestListener - Test Started: signupTest
+22:49:23.438 [TestNG-test-SmokeTests-2] INFO  com.api.listeners.TestListener - Test Started: forgotPassword
+22:49:23.438 [TestNG-test-SmokeTests-1] INFO  com.api.listeners.TestListener - Test Started: loginTest
+22:49:24.388 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:49:24.388 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:49:24.388 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:49:24.388 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:49:24.388 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:49:24.388 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:49:24.388 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:49:24.388 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:49:24.388 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Request PayLoad: {"email": "muzaffar988@gmail.com"}
+22:49:24.388 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:49:24.388 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:49:24.388 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Lena",
+  "lastName": "Wunsch",
+  "password": "****",
+  "mobileNumber": "14397855762",
+  "email": "Lena.Wunsch@gmail.com",
+  "username": "freeman.gulgowski"
+}
+22:49:25.272 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - STATUS CODE: 401
+22:49:25.272 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=170
+Date=Fri, 27 Dec 2024 03:49:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:49:25.288 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:49:25.288 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:49:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:49:25.303 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTM2NCwiZXhwIjoxNzM1Mjc0OTY0fQ.yqPKD0fGuk8aFtuwwDOa3M2hIvCywjIAg5j3xE0PFyc",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:49:25.303 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "timestamp": "Fri Dec 27 03:49:24 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+22:49:25.311 [TestNG-test-SmokeTests-4] ERROR com.api.listeners.TestListener - Test Failed: signupTest
+22:49:25.319 [TestNG-test-SmokeTests-4] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1419) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1383) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1429) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.SignupAPITest.signupTest(SignupAPITest.java:43) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+22:49:25.336 [TestNG-test-SmokeTests-4] INFO  com.api.listeners.TestListener - Test Started: profileUpdate
+22:49:25.344 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:49:25.344 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:49:25.344 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:49:25.352 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:49:25.352 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:49:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:49:25.362 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTM2NCwiZXhwIjoxNzM1Mjc0OTY0fQ.yqPKD0fGuk8aFtuwwDOa3M2hIvCywjIAg5j3xE0PFyc",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:49:25.365 [TestNG-test-SmokeTests-1] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+22:49:25.367 [TestNG-test-SmokeTests-1] INFO  com.api.listeners.TestListener - Test Started: getProfileInfoTest
+22:49:25.372 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:49:25.374 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTM2NCwiZXhwIjoxNzM1Mjc0OTY0fQ.yqPKD0fGuk8aFtuwwDOa3M2hIvCywjIAg5j3xE0PFyc
+Content-Type=application/json
+22:49:25.374 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "newPassword": "Automation12345",
+  "confirmPassword": "Automation12345",
+  "token": "****"
+}
+22:49:25.375 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:49:25.375 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:49:25.375 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:49:25.907 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - STATUS CODE: 400
+22:49:25.919 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:49:25 GMT
+Connection=close
+22:49:25.919 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "message": "Invalid reset token"
+}
+22:49:25.923 [TestNG-test-SmokeTests-3] ERROR com.api.listeners.TestListener - Test Failed: resetPassword
+22:49:25.923 [TestNG-test-SmokeTests-3] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1419) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1383) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1429) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.ResetPasswordAPITest.resetPassword(ResetPasswordAPITest.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+22:49:26.019 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:49:26.019 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:49:25 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:49:26.019 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTM2NSwiZXhwIjoxNzM1Mjc0OTY1fQ.k25Xn_eoLB_6Aplx6b8cdOJjdtjXSE5tf74Z4Jbk17M",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:49:26.040 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:49:26.040 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTM2NSwiZXhwIjoxNzM1Mjc0OTY1fQ.k25Xn_eoLB_6Aplx6b8cdOJjdtjXSE5tf74Z4Jbk17M
+Accept=*/*
+Content-Type=application/json
+22:49:26.040 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Muzaffar1",
+  "lastName": "Muzaffar1",
+  "mobileNumber": "8747659345",
+  "email": "muzaffar12234@gmail.com"
+}
+22:49:26.040 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:49:26.040 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:49:25 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:49:26.040 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTM2NSwiZXhwIjoxNzM1Mjc0OTY1fQ.k25Xn_eoLB_6Aplx6b8cdOJjdtjXSE5tf74Z4Jbk17M",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:49:26.046 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:49:26.046 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTM2NSwiZXhwIjoxNzM1Mjc0OTY1fQ.k25Xn_eoLB_6Aplx6b8cdOJjdtjXSE5tf74Z4Jbk17M
+Accept=*/*
+22:49:26.046 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request PayLoad: null
+22:49:26.582 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:49:26.582 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:49:25 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:49:26.585 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "firstName": "Muzaffar1",
+    "lastName": "Muzaffar1",
+    "mobileNumber": "8747659345"
+}
+22:49:26.590 [TestNG-test-SmokeTests-1] ERROR com.api.listeners.TestListener - Test Failed: getProfileInfoTest
+22:49:26.590 [TestNG-test-SmokeTests-1] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [Muzaffar] but found [Muzaffar1]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:656) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:666) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.UserProfileManagementAPITest.getProfileInfoTest(UserProfileManagementAPITest.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+22:49:26.606 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:49:26.606 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:49:25 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:49:26.606 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "firstName": "Muzaffar1",
+    "lastName": "Muzaffar1",
+    "mobileNumber": "8747659345"
+}
+22:49:26.606 [TestNG-test-SmokeTests-4] INFO  com.api.listeners.TestListener - Test Passed: profileUpdate
+22:49:27.288 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - STATUS CODE: 401
+22:49:27.288 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=170
+Date=Fri, 27 Dec 2024 03:49:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:49:27.302 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "timestamp": "Fri Dec 27 03:49:26 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+22:49:27.304 [TestNG-test-SmokeTests-2] ERROR com.api.listeners.TestListener - Test Failed: forgotPassword
+22:49:27.304 [TestNG-test-SmokeTests-2] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1419) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1383) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1429) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.ForgotPasswordAPITest.forgotPassword(ForgotPasswordAPITest.java:16) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+22:49:27.320 [main] INFO  com.api.listeners.TestListener - Test Execution Finished
+22:50:05.881 [main] INFO  com.api.listeners.TestListener - Test Execution Started
+22:50:06.034 [TestNG-test-SmokeTests-3] INFO  com.api.listeners.TestListener - Test Started: resetPassword
+22:50:06.034 [TestNG-test-SmokeTests-2] INFO  com.api.listeners.TestListener - Test Started: forgotPassword
+22:50:06.034 [TestNG-test-SmokeTests-4] INFO  com.api.listeners.TestListener - Test Started: signupTest
+22:50:06.034 [TestNG-test-SmokeTests-1] INFO  com.api.listeners.TestListener - Test Started: loginTest
+22:50:06.966 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:50:06.966 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:50:06.966 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:50:06.966 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:50:06.966 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:50:06.966 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:50:06.966 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:50:06.966 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Request PayLoad: {"email": "muzaffar988@gmail.com"}
+22:50:06.966 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:50:06.966 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:50:06.966 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Katy",
+  "lastName": "Rau",
+  "password": "****",
+  "mobileNumber": "10605117058",
+  "email": "Katy.Rau@gmail.com",
+  "username": "renata.gorczany"
+}
+22:50:06.966 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:50:07.852 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - STATUS CODE: 401
+22:50:07.852 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=170
+Date=Fri, 27 Dec 2024 03:50:06 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:50:07.877 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:50:07.877 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:50:07 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:50:07.877 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "timestamp": "Fri Dec 27 03:50:06 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+22:50:07.877 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTQwNywiZXhwIjoxNzM1Mjc1MDA3fQ.e_SH5gxjHDWu2-D41k1D7UcUwSoq9cwFopWPwT4bzsU",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:50:07.884 [TestNG-test-SmokeTests-4] ERROR com.api.listeners.TestListener - Test Failed: signupTest
+22:50:07.884 [TestNG-test-SmokeTests-4] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1419) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1383) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1429) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.SignupAPITest.signupTest(SignupAPITest.java:43) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+22:50:07.909 [TestNG-test-SmokeTests-4] INFO  com.api.listeners.TestListener - Test Started: profileUpdate
+22:50:07.917 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:50:07.917 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:50:07 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:50:07.919 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:50:07.919 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:50:07.919 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTQwNywiZXhwIjoxNzM1Mjc1MDA3fQ.e_SH5gxjHDWu2-D41k1D7UcUwSoq9cwFopWPwT4bzsU",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:50:07.919 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:50:07.938 [TestNG-test-SmokeTests-1] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+22:50:07.940 [TestNG-test-SmokeTests-1] INFO  com.api.listeners.TestListener - Test Started: getProfileInfoTest
+22:50:07.946 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:50:07.946 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:50:07.946 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTQwNywiZXhwIjoxNzM1Mjc1MDA3fQ.e_SH5gxjHDWu2-D41k1D7UcUwSoq9cwFopWPwT4bzsU
+Content-Type=application/json
+22:50:07.947 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:50:07.947 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "newPassword": "Automation12345",
+  "confirmPassword": "Automation12345",
+  "token": "****"
+}
+22:50:07.947 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+22:50:08.502 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - STATUS CODE: 400
+22:50:08.502 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:50:07 GMT
+Connection=close
+22:50:08.502 [TestNG-test-SmokeTests-3] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "message": "Invalid reset token"
+}
+22:50:08.502 [TestNG-test-SmokeTests-3] ERROR com.api.listeners.TestListener - Test Failed: resetPassword
+22:50:08.502 [TestNG-test-SmokeTests-3] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1419) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1383) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1429) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.ResetPasswordAPITest.resetPassword(ResetPasswordAPITest.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+22:50:08.552 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:50:08.552 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:50:07 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:50:08.563 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTQwNywiZXhwIjoxNzM1Mjc1MDA3fQ.e_SH5gxjHDWu2-D41k1D7UcUwSoq9cwFopWPwT4bzsU",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:50:08.569 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:50:08.569 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTQwNywiZXhwIjoxNzM1Mjc1MDA3fQ.e_SH5gxjHDWu2-D41k1D7UcUwSoq9cwFopWPwT4bzsU
+Accept=*/*
+Content-Type=application/json
+22:50:08.569 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Request PayLoad: {
+  "firstName": "Muzaffar1",
+  "lastName": "Muzaffar1",
+  "mobileNumber": "8747659345",
+  "email": "muzaffar12234@gmail.com"
+}
+22:50:08.611 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:50:08.611 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:50:07 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:50:08.611 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTQwNywiZXhwIjoxNzM1Mjc1MDA3fQ.e_SH5gxjHDWu2-D41k1D7UcUwSoq9cwFopWPwT4bzsU",
+    "type": "Bearer",
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:50:08.619 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+22:50:08.619 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTI3MTQwNywiZXhwIjoxNzM1Mjc1MDA3fQ.e_SH5gxjHDWu2-D41k1D7UcUwSoq9cwFopWPwT4bzsU
+Accept=*/*
+22:50:08.619 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Request PayLoad: null
+22:50:09.118 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:50:09.118 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:50:08 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:50:09.118 [TestNG-test-SmokeTests-4] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "firstName": "Muzaffar1",
+    "lastName": "Muzaffar1",
+    "mobileNumber": "8747659345"
+}
+22:50:09.124 [TestNG-test-SmokeTests-4] INFO  com.api.listeners.TestListener - Test Passed: profileUpdate
+22:50:09.152 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - STATUS CODE: 200
+22:50:09.152 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 27 Dec 2024 03:50:08 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:50:09.152 [TestNG-test-SmokeTests-1] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "id": 377,
+    "username": "Muzaffar",
+    "email": "muzaffar12234@gmail.com",
+    "firstName": "Muzaffar1",
+    "lastName": "Muzaffar1",
+    "mobileNumber": "8747659345"
+}
+22:50:09.164 [TestNG-test-SmokeTests-1] ERROR com.api.listeners.TestListener - Test Failed: getProfileInfoTest
+22:50:09.164 [TestNG-test-SmokeTests-1] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [Muzaffar] but found [Muzaffar1]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:656) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:666) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.UserProfileManagementAPITest.getProfileInfoTest(UserProfileManagementAPITest.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+22:50:09.859 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - STATUS CODE: 401
+22:50:09.859 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=170
+Date=Fri, 27 Dec 2024 03:50:09 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:50:09.859 [TestNG-test-SmokeTests-2] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "timestamp": "Fri Dec 27 03:50:09 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+22:50:09.868 [TestNG-test-SmokeTests-2] ERROR com.api.listeners.TestListener - Test Failed: forgotPassword
+22:50:09.868 [TestNG-test-SmokeTests-2] ERROR com.api.listeners.TestListener - Exception: 
+java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1419) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1383) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:1429) ~[testng-7.10.2.jar:7.10.2]
+	at com.api.tests.ForgotPasswordAPITest.forgotPassword(ForgotPasswordAPITest.java:16) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+22:50:09.885 [main] INFO  com.api.listeners.TestListener - Test Execution Finished

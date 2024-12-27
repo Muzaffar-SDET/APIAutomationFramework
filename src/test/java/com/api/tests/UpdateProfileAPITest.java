@@ -8,7 +8,11 @@ import com.api.models.response.LoginResponse;
 import com.api.models.response.UserProfileResponse;
 import io.restassured.response.Response;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import reporting.ExtentReportManager;
+
+@Listeners(com.api.listeners.TestListener.class)
 
 public class UpdateProfileAPITest {
     @Test(groups = "regression", description = "Verifying if Profile update API is working")
