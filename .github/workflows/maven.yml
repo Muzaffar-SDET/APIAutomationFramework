@@ -79,7 +79,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: public/extent-reports/
-          token: ${{ secrets.PAT1234 }}
+          token: ${{ secrets.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 }}
           clean: true   
 
       # - name: Publish Test Report
