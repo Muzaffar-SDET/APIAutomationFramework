@@ -1,6 +1,16 @@
 name: API Test Automation Framework
 
 on:
+  workflow_dispatch:  # Enables manual trigger
+    inputs:
+      testsuite:
+        description: 'Select Test Suite'
+        required: true
+        default: 'smoke'
+        type: choice
+        options:
+          - smoke
+          - regression
   push:
     branches: [ "main" ]
   pull_request:
@@ -15,6 +25,9 @@ jobs:
       issues: write
 
     steps:
+      - name: Display inputs
+        run: |
+          echo "Test Suite: ${{ github.event.inputs.testsuite }}"
       - uses: actions/checkout@v4
 
       - name: Set up JDK 23
@@ -25,7 +38,7 @@ jobs:
           cache: maven
 
       - name: Execute Tests
-        run: mvn test
+        run: mvn clean test -Dgroups=smoke
 
       - name: List files for debugging
         run: ls -R target
