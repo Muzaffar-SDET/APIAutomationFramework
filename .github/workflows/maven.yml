@@ -71,7 +71,7 @@ jobs:
 
         run: |
           mkdir -p public/extent-reports
-          cp -R report.html  public/extent-reports/
+          cp -R target/ExtentReport/report.html  public/extent-reports/
           ls -l 
 
       - name: Deploy 🚀
