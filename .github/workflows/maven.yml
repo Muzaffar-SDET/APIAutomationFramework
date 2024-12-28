@@ -60,7 +60,7 @@ jobs:
 
       - name: Publish Extent Report
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.4.3
         with:
           name: ExtentReport
           path: target/ExtentReport/report.html
