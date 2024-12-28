@@ -66,10 +66,26 @@ jobs:
           path: target/ExtentReport/report.html
           if-no-files-found: warn
 
-      - name: Publish Test Report
+      - name: Copy Report to gh-pages Folder
         if: always()
-        uses: dorny/test-reporter@v1
+
+        run: |
+          mkdir -p public/extent-reports
+          cp -R report.html  public/extent-reports/
+          ls -l 
+
+      - name: Deploy 🚀
+        if: always()
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          name: TestNG Results
-          path: target/surefire-reports/junitreports/TEST-*.xml
-          reporter: java-junit
+          folder: public/extent-reports/
+          token: ${{ secrets.PAT1234 }}
+          clean: true   
+
+      # - name: Publish Test Report
+      #   if: always()
+      #   uses: dorny/test-reporter@v1
+      #   with:
+      #     name: TestNG Results
+      #     path: target/surefire-reports/junitreports/TEST-*.xml
+      #     reporter: java-junit
