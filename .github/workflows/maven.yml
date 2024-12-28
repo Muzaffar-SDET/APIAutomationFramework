@@ -25,9 +25,7 @@ jobs:
       issues: write
 
     steps:
-      - name: Display inputs
-        run: |
-          echo "Test Suite: ${{ github.event.inputs.testsuite }}"
+    
       - uses: actions/checkout@v4
 
       - name: Set up JDK 23
@@ -38,7 +36,7 @@ jobs:
           cache: maven
 
       - name: Execute Tests
-        run: mvn clean test -Dgroups=smoke
+        run: mvn clean test -Dgroups=${{ github.event.inputs.testsuite }}
 
       - name: List files for debugging
         run: ls -R target
