@@ -40,7 +40,9 @@ jobs:
           echo "testsuite: ${{ github.event.inputs.testsuite }}"
 
       - name: Execute Tests
-        run: mvn clean test -Dgroups=${{ github.event.inputs.testsuite }}
+        env:
+          TESTSUITE: ${{ github.event.inputs.testsuite }}
+        run: mvn clean test -Dgroups=$TESTSUITE
 
       - name: List files for debugging
         run: ls -R target
