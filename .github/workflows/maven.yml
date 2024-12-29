@@ -35,6 +35,10 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
+      - name: Display inputs
+        run: |
+          echo "Environment: ${{ github.event.inputs.testsuite }}"
+
       - name: Execute Tests
         run: mvn clean test -Dgroups=${{ github.event.inputs.testsuite }}
 
