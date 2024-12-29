@@ -70,21 +70,21 @@ jobs:
           path: target/ExtentReport/report.html
           if-no-files-found: warn
 
-      # - name: Copy Report to gh-pages Folder
-      #   if: always()
+      - name: Copy Report to gh-pages Folder
+        if: always()
 
-      #   run: |
-      #     mkdir -p public/extent-reports
-      #     cp -R target/ExtentReport/report.html  public/extent-reports/
-      #     ls -l 
+        run: |
+          mkdir -p public/extent-reports
+          cp -R target/ExtentReport/report.html  public/extent-reports/
+          ls -l 
 
-      # - name: Deploy 🚀
-      #   if: always()
-      #   uses: JamesIves/github-pages-deploy-action@v4
-      #   with:
-      #     folder: public/extent-reports/
-      #     token: ${{ secrets.PAT }}
-      #     clean: true   
+      - name: Deploy 🚀
+        if: always()
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: public/extent-reports/
+          token: ${{ secrets.PAT }}
+          clean: true   
 
       # - name: Publish Test Report
       #   if: always()
