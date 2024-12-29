@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Test Execution Results</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Dec 29, 2024 04:14:45 AM</span></a>
+<a href="#"><span class="badge badge-primary">Dec 29, 2024 04:18:37 AM</span></a>
 </li>
 </ul>
 </div>
@@ -80,448 +80,14 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="3"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">resetPassword</p>
-            <p class="text-sm">
-              <span>4:14:45 AM</span> / <span>00:00:02:535</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">resetPassword</h5>
-<span class='badge badge-success'>12.29.2024 4:14:45 AM</span>
-<span class='badge badge-danger'>12.29.2024 4:14:48 AM</span>
-<span class='badge badge-default'>00:00:02:535</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-10 m-l-5">Authentication Service Test: Verify if Reset Password API is working</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:46 AM</td>
-        <td>
-          BASE URI: http://64.227.160.186:8080
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:46 AM</td>
-        <td>
-          Request Header: Accept=*/*
-Content-Type=application/json
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:46 AM</td>
-        <td>
-          Request PayLoad: {
-  "password": "****",
-  "username": "Muzaffar"
-}
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
-        <td>
-          STATUS CODE: 200
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
-        <td>
-          Response Header: Vary=Origin
-Vary=Access-Control-Request-Method
-Vary=Access-Control-Request-Headers
-Access-Control-Allow-Origin=https://swift.techwithjatin.com
-Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
-Access-Control-Max-Age=3600
-Access-Control-Allow-Headers=Authorization, Content-Type, Accept
-Access-Control-Allow-Credentials=true
-X-Content-Type-Options=nosniff
-X-XSS-Protection=0
-Cache-Control=no-cache, no-store, max-age=0, must-revalidate
-Pragma=no-cache
-Expires=0
-X-Frame-Options=DENY
-Content-Type=application/json
-Transfer-Encoding=chunked
-Date=Sun, 29 Dec 2024 04:14:47 GMT
-Keep-Alive=timeout=60
-Connection=keep-alive
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
-        <td>
-          Response Body: {
-  "roles": ["ROLE_USER"],
-  "id": 377,
-  "type": "Bearer",
-  "email": "muzaffar12234@gmail.com",
-  "token": "****",
-  "username": "Muzaffar"
-}
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
-        <td>
-          BASE URI: http://64.227.160.186:8080
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
-        <td>
-          Request Header: Accept=*/*
-Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTQ0NTY4NywiZXhwIjoxNzM1NDQ5Mjg3fQ.tDuLIDwY4DpPAZRpPG0PvpZICu3jU3iXgd2dFmthSGA
-Content-Type=application/json
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
-        <td>
-          Request PayLoad: {
-  "newPassword": "Automation12345",
-  "confirmPassword": "Automation12345",
-  "token": "****"
-}
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
-        <td>
-          STATUS CODE: 400
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
-        <td>
-          Response Header: Vary=Origin
-Vary=Access-Control-Request-Method
-Vary=Access-Control-Request-Headers
-Access-Control-Allow-Origin=https://swift.techwithjatin.com
-Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
-Access-Control-Max-Age=3600
-Access-Control-Allow-Headers=Authorization, Content-Type, Accept
-Access-Control-Allow-Credentials=true
-X-Content-Type-Options=nosniff
-X-XSS-Protection=0
-Cache-Control=no-cache, no-store, max-age=0, must-revalidate
-Pragma=no-cache
-Expires=0
-X-Frame-Options=DENY
-Content-Type=application/json
-Transfer-Encoding=chunked
-Date=Sun, 29 Dec 2024 04:14:47 GMT
-Connection=close
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
-        <td>
-          Response Body: {"message": "Invalid reset token"}
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>4:14:48 AM</td>
-        <td>
-          Test Failed: resetPassword
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>4:14:48 AM</td>
-        <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: expected [200] but found [400]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1419)
-	at org.testng.Assert.assertEquals(Assert.java:1383)
-	at org.testng.Assert.assertEquals(Assert.java:1429)
-	at com.api.tests.ResetPasswordAPITest.resetPassword(ResetPasswordAPITest.java:30)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-</textarea>
-          
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="2"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">signupTest</p>
-            <p class="text-sm">
-              <span>4:14:45 AM</span> / <span>00:00:01:931</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">signupTest</h5>
-<span class='badge badge-success'>12.29.2024 4:14:45 AM</span>
-<span class='badge badge-danger'>12.29.2024 4:14:47 AM</span>
-<span class='badge badge-default'>00:00:01:931</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-10 m-l-5">Authentication Service Test: Verify if Signup API is working</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:46 AM</td>
-        <td>
-          BASE URI: http://64.227.160.186:8080
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:46 AM</td>
-        <td>
-          Request Header: Accept=*/*
-Content-Type=application/json
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:46 AM</td>
-        <td>
-          Request PayLoad: {
-  "firstName": "Latasha",
-  "lastName": "Schinner",
-  "password": "****",
-  "mobileNumber": "9358246988",
-  "email": "Latasha.Schinner@gmail.com",
-  "username": "velvet.buckridge"
-}
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
-        <td>
-          STATUS CODE: 200
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
-        <td>
-          Response Header: Vary=Origin
-Vary=Access-Control-Request-Method
-Vary=Access-Control-Request-Headers
-Access-Control-Allow-Origin=https://swift.techwithjatin.com
-Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
-Access-Control-Max-Age=3600
-Access-Control-Allow-Headers=Authorization, Content-Type, Accept
-Access-Control-Allow-Credentials=true
-X-Content-Type-Options=nosniff
-X-XSS-Protection=0
-Cache-Control=no-cache, no-store, max-age=0, must-revalidate
-Pragma=no-cache
-Expires=0
-X-Frame-Options=DENY
-Content-Type=text/plain;charset=UTF-8
-Content-Length=29
-Date=Sun, 29 Dec 2024 04:14:47 GMT
-Keep-Alive=timeout=60
-Connection=keep-alive
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
-        <td>
-          Response Body: User registered successfully!
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:14:47 AM</td>
-        <td>
-          Test Passed: signupTest
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="4"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">loginTest</p>
-            <p class="text-sm">
-              <span>4:14:45 AM</span> / <span>00:00:01:999</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">loginTest</h5>
-<span class='badge badge-success'>12.29.2024 4:14:45 AM</span>
-<span class='badge badge-danger'>12.29.2024 4:14:47 AM</span>
-<span class='badge badge-default'>00:00:01:999</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-10 m-l-5">Authentication Service Test: Verify if Login endpoint is working</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:46 AM</td>
-        <td>
-          BASE URI: http://64.227.160.186:8080
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:46 AM</td>
-        <td>
-          Request Header: Accept=*/*
-Content-Type=application/json
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:46 AM</td>
-        <td>
-          Request PayLoad: {
-  "password": "****",
-  "username": "Muzaffar"
-}
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
-        <td>
-          STATUS CODE: 200
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
-        <td>
-          Response Header: Vary=Origin
-Vary=Access-Control-Request-Method
-Vary=Access-Control-Request-Headers
-Access-Control-Allow-Origin=https://swift.techwithjatin.com
-Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
-Access-Control-Max-Age=3600
-Access-Control-Allow-Headers=Authorization, Content-Type, Accept
-Access-Control-Allow-Credentials=true
-X-Content-Type-Options=nosniff
-X-XSS-Protection=0
-Cache-Control=no-cache, no-store, max-age=0, must-revalidate
-Pragma=no-cache
-Expires=0
-X-Frame-Options=DENY
-Content-Type=application/json
-Transfer-Encoding=chunked
-Date=Sun, 29 Dec 2024 04:14:47 GMT
-Keep-Alive=timeout=60
-Connection=keep-alive
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
-        <td>
-          Response Body: {
-  "roles": ["ROLE_USER"],
-  "id": 377,
-  "type": "Bearer",
-  "email": "muzaffar12234@gmail.com",
-  "token": "****",
-  "username": "Muzaffar"
-}
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:14:47 AM</td>
-        <td>
-          Test Passed: loginTest
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="fail" test-id="2"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">forgotPassword</p>
             <p class="text-sm">
-              <span>4:14:45 AM</span> / <span>00:00:03:780</span>
+              <span>4:18:37 AM</span> / <span>00:00:03:595</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -530,10 +96,10 @@ Connection=keep-alive
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">forgotPassword</h5>
-<span class='badge badge-success'>12.29.2024 4:14:45 AM</span>
-<span class='badge badge-danger'>12.29.2024 4:14:49 AM</span>
-<span class='badge badge-default'>00:00:03:780</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-success'>12.29.2024 4:18:37 AM</span>
+<span class='badge badge-danger'>12.29.2024 4:18:41 AM</span>
+<span class='badge badge-default'>00:00:03:595</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -546,14 +112,14 @@ Connection=keep-alive
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:46 AM</td>
+        <td>4:18:38 AM</td>
         <td>
           BASE URI: http://64.227.160.186:8080
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:46 AM</td>
+        <td>4:18:38 AM</td>
         <td>
           Request Header: Accept=*/*
 Content-Type=application/json
@@ -561,21 +127,21 @@ Content-Type=application/json
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:46 AM</td>
+        <td>4:18:38 AM</td>
         <td>
           Request PayLoad: {"email": "muzaffar988@gmail.com"}
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:49 AM</td>
+        <td>4:18:41 AM</td>
         <td>
           STATUS CODE: 401
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:49 AM</td>
+        <td>4:18:41 AM</td>
         <td>
           Response Header: Vary=Origin
 Vary=Access-Control-Request-Method
@@ -593,34 +159,34 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json;charset=ISO-8859-1
 Content-Length=170
-Date=Sun, 29 Dec 2024 04:14:49 GMT
+Date=Sun, 29 Dec 2024 04:18:41 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:49 AM</td>
+        <td>4:18:41 AM</td>
         <td>
           Response Body: {
   "path": "/error",
   "error": "Unauthorized",
   "message": "Full authentication is required to access this resource",
-  "timestamp": "Sun Dec 29 04:14:49 UTC 2024",
+  "timestamp": "Sun Dec 29 04:18:41 UTC 2024",
   "status": 401
 }
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>4:14:49 AM</td>
+        <td>4:18:41 AM</td>
         <td>
           Test Failed: forgotPassword
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>4:14:49 AM</td>
+        <td>4:18:41 AM</td>
         <td>
           <textarea readonly class="code-block">java.lang.AssertionError: expected [200] but found [401]
 	at org.testng.Assert.fail(Assert.java:111)
@@ -656,31 +222,31 @@ Connection=keep-alive
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="5"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">profileUpdate</p>
+            <p class="name">resetPassword</p>
             <p class="text-sm">
-              <span>4:14:47 AM</span> / <span>00:00:01:161</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>4:18:37 AM</span> / <span>00:00:02:305</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">profileUpdate</h5>
-<span class='badge badge-success'>12.29.2024 4:14:47 AM</span>
-<span class='badge badge-danger'>12.29.2024 4:14:48 AM</span>
-<span class='badge badge-default'>00:00:01:161</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<h5 class="test-status text-fail">resetPassword</h5>
+<span class='badge badge-success'>12.29.2024 4:18:37 AM</span>
+<span class='badge badge-danger'>12.29.2024 4:18:40 AM</span>
+<span class='badge badge-default'>00:00:02:305</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-10 m-l-5">Verifying if Profile update API is working</div>
+<div class="m-t-10 m-l-5">Authentication Service Test: Verify if Reset Password API is working</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -688,14 +254,14 @@ Connection=keep-alive
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
+        <td>4:18:38 AM</td>
         <td>
           BASE URI: http://64.227.160.186:8080
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
+        <td>4:18:38 AM</td>
         <td>
           Request Header: Accept=*/*
 Content-Type=application/json
@@ -703,7 +269,7 @@ Content-Type=application/json
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
+        <td>4:18:38 AM</td>
         <td>
           Request PayLoad: {
   "password": "****",
@@ -713,14 +279,14 @@ Content-Type=application/json
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:39 AM</td>
         <td>
           STATUS CODE: 200
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:39 AM</td>
         <td>
           Response Header: Vary=Origin
 Vary=Access-Control-Request-Method
@@ -738,14 +304,14 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Sun, 29 Dec 2024 04:14:47 GMT
+Date=Sun, 29 Dec 2024 04:18:39 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:39 AM</td>
         <td>
           Response Body: {
   "roles": ["ROLE_USER"],
@@ -759,42 +325,41 @@ Connection=keep-alive
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:39 AM</td>
         <td>
           BASE URI: http://64.227.160.186:8080
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:39 AM</td>
         <td>
-          Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTQ0NTY4NywiZXhwIjoxNzM1NDQ5Mjg3fQ.tDuLIDwY4DpPAZRpPG0PvpZICu3jU3iXgd2dFmthSGA
-Accept=*/*
+          Request Header: Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTQ0NTkxOSwiZXhwIjoxNzM1NDQ5NTE5fQ.UYtW9k_qTskQBGpbVQ2I2QEWjMQCE40hgYVUpwM8Brk
 Content-Type=application/json
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:39 AM</td>
         <td>
           Request PayLoad: {
-  "firstName": "Muzaffar1",
-  "lastName": "Muzaffar1",
-  "mobileNumber": "8747659345",
-  "email": "muzaffar12234@gmail.com"
+  "newPassword": "Automation12345",
+  "confirmPassword": "Automation12345",
+  "token": "****"
 }
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:40 AM</td>
         <td>
-          STATUS CODE: 200
+          STATUS CODE: 400
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:40 AM</td>
         <td>
           Response Header: Vary=Origin
 Vary=Access-Control-Request-Method
@@ -812,14 +377,449 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Sun, 29 Dec 2024 04:14:48 GMT
+Date=Sun, 29 Dec 2024 04:18:39 GMT
+Connection=close
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:40 AM</td>
+        <td>
+          Response Body: {"message": "Invalid reset token"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:18:40 AM</td>
+        <td>
+          Test Failed: resetPassword
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:18:40 AM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at com.api.tests.ResetPasswordAPITest.resetPassword(ResetPasswordAPITest.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginTest</p>
+            <p class="text-sm">
+              <span>4:18:37 AM</span> / <span>00:00:01:802</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">loginTest</h5>
+<span class='badge badge-success'>12.29.2024 4:18:37 AM</span>
+<span class='badge badge-danger'>12.29.2024 4:18:39 AM</span>
+<span class='badge badge-default'>00:00:01:802</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Authentication Service Test: Verify if Login endpoint is working</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:38 AM</td>
+        <td>
+          BASE URI: http://64.227.160.186:8080
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:38 AM</td>
+        <td>
+          Request Header: Accept=*/*
+Content-Type=application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:38 AM</td>
+        <td>
+          Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:39 AM</td>
+        <td>
+          STATUS CODE: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:39 AM</td>
+        <td>
+          Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 29 Dec 2024 04:18:39 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:39 AM</td>
+        <td>
+          Response Body: {
+  "roles": ["ROLE_USER"],
+  "id": 377,
+  "type": "Bearer",
+  "email": "muzaffar12234@gmail.com",
+  "token": "****",
+  "username": "Muzaffar"
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:18:39 AM</td>
+        <td>
+          Test Passed: loginTest
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">signupTest</p>
+            <p class="text-sm">
+              <span>4:18:37 AM</span> / <span>00:00:01:802</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">signupTest</h5>
+<span class='badge badge-success'>12.29.2024 4:18:37 AM</span>
+<span class='badge badge-danger'>12.29.2024 4:18:39 AM</span>
+<span class='badge badge-default'>00:00:01:802</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Authentication Service Test: Verify if Signup API is working</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:38 AM</td>
+        <td>
+          BASE URI: http://64.227.160.186:8080
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:38 AM</td>
+        <td>
+          Request Header: Accept=*/*
+Content-Type=application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:38 AM</td>
+        <td>
+          Request PayLoad: {
+  "firstName": "Hailey",
+  "lastName": "Durgan",
+  "password": "****",
+  "mobileNumber": "7975420659",
+  "email": "Hailey.Durgan@gmail.com",
+  "username": "hillary.gerhold"
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:39 AM</td>
+        <td>
+          STATUS CODE: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:39 AM</td>
+        <td>
+          Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Sun, 29 Dec 2024 04:18:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:39 AM</td>
+        <td>
+          Response Body: User registered successfully!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:18:39 AM</td>
+        <td>
+          Test Passed: signupTest
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">profileUpdate</p>
+            <p class="text-sm">
+              <span>4:18:39 AM</span> / <span>00:00:01:129</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">profileUpdate</h5>
+<span class='badge badge-success'>12.29.2024 4:18:39 AM</span>
+<span class='badge badge-danger'>12.29.2024 4:18:40 AM</span>
+<span class='badge badge-default'>00:00:01:129</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Verifying if Profile update API is working</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:39 AM</td>
+        <td>
+          BASE URI: http://64.227.160.186:8080
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:39 AM</td>
+        <td>
+          Request Header: Accept=*/*
+Content-Type=application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:39 AM</td>
+        <td>
+          Request PayLoad: {
+  "password": "****",
+  "username": "Muzaffar"
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:40 AM</td>
+        <td>
+          STATUS CODE: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:40 AM</td>
+        <td>
+          Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 29 Dec 2024 04:18:40 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:40 AM</td>
+        <td>
+          Response Body: {
+  "roles": ["ROLE_USER"],
+  "id": 377,
+  "type": "Bearer",
+  "email": "muzaffar12234@gmail.com",
+  "token": "****",
+  "username": "Muzaffar"
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:40 AM</td>
+        <td>
+          BASE URI: http://64.227.160.186:8080
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:40 AM</td>
+        <td>
+          Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTQ0NTkyMCwiZXhwIjoxNzM1NDQ5NTIwfQ.Y8jkcBhjNKwykCXku55Wf2osF5IMLCPqvTgksxM5Ub8
+Accept=*/*
+Content-Type=application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:40 AM</td>
+        <td>
+          Request PayLoad: {
+  "firstName": "Muzaffar1",
+  "lastName": "Muzaffar1",
+  "mobileNumber": "8747659345",
+  "email": "muzaffar12234@gmail.com"
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:40 AM</td>
+        <td>
+          STATUS CODE: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:40 AM</td>
+        <td>
+          Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 29 Dec 2024 04:18:40 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:18:40 AM</td>
         <td>
           Response Body: {
   "firstName": "Muzaffar1",
@@ -833,7 +833,7 @@ Connection=keep-alive
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:40 AM</td>
         <td>
           Test Passed: profileUpdate
         </td>
@@ -850,7 +850,7 @@ Connection=keep-alive
           <div class="test-detail">
             <p class="name">getProfileInfoTest</p>
             <p class="text-sm">
-              <span>4:14:47 AM</span> / <span>00:00:01:135</span>
+              <span>4:18:39 AM</span> / <span>00:00:01:121</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -859,9 +859,9 @@ Connection=keep-alive
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">getProfileInfoTest</h5>
-<span class='badge badge-success'>12.29.2024 4:14:47 AM</span>
-<span class='badge badge-danger'>12.29.2024 4:14:48 AM</span>
-<span class='badge badge-default'>00:00:01:135</span>
+<span class='badge badge-success'>12.29.2024 4:18:39 AM</span>
+<span class='badge badge-danger'>12.29.2024 4:18:40 AM</span>
+<span class='badge badge-default'>00:00:01:121</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -875,14 +875,14 @@ Connection=keep-alive
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
+        <td>4:18:39 AM</td>
         <td>
           BASE URI: http://64.227.160.186:8080
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
+        <td>4:18:39 AM</td>
         <td>
           Request Header: Accept=*/*
 Content-Type=application/json
@@ -890,7 +890,7 @@ Content-Type=application/json
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:47 AM</td>
+        <td>4:18:39 AM</td>
         <td>
           Request PayLoad: {
   "password": "****",
@@ -900,14 +900,14 @@ Content-Type=application/json
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:40 AM</td>
         <td>
           STATUS CODE: 200
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:40 AM</td>
         <td>
           Response Header: Vary=Origin
 Vary=Access-Control-Request-Method
@@ -925,14 +925,14 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Sun, 29 Dec 2024 04:14:48 GMT
+Date=Sun, 29 Dec 2024 04:18:40 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:40 AM</td>
         <td>
           Response Body: {
   "roles": ["ROLE_USER"],
@@ -946,36 +946,36 @@ Connection=keep-alive
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:40 AM</td>
         <td>
           BASE URI: http://64.227.160.186:8080
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:40 AM</td>
         <td>
-          Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTQ0NTY4OCwiZXhwIjoxNzM1NDQ5Mjg4fQ.1QZeSeGqPma0RbWiRNOGy60S7PT63vb46n3eD_toFnM
+          Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNdXphZmZhciIsImlhdCI6MTczNTQ0NTkyMCwiZXhwIjoxNzM1NDQ5NTIwfQ.Y8jkcBhjNKwykCXku55Wf2osF5IMLCPqvTgksxM5Ub8
 Accept=*/*
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:40 AM</td>
         <td>
           Request PayLoad: null
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:40 AM</td>
         <td>
           STATUS CODE: 200
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:40 AM</td>
         <td>
           Response Header: Vary=Origin
 Vary=Access-Control-Request-Method
@@ -993,14 +993,14 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Sun, 29 Dec 2024 04:14:48 GMT
+Date=Sun, 29 Dec 2024 04:18:40 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:40 AM</td>
         <td>
           Response Body: {
   "firstName": "Muzaffar1",
@@ -1014,14 +1014,14 @@ Connection=keep-alive
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:40 AM</td>
         <td>
           Test Failed: getProfileInfoTest
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>4:14:48 AM</td>
+        <td>4:18:40 AM</td>
         <td>
           <textarea readonly class="code-block">java.lang.AssertionError: expected [Muzaffar] but found [Muzaffar1]
 	at org.testng.Assert.fail(Assert.java:111)
@@ -1097,23 +1097,23 @@ Connection=keep-alive
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>04:14:45 AM</td>
+<td>04:18:37 AM</td>
 <td>
-<a href="#" class="linked" test-id='3' id='3'>resetPassword</a>
+<a href="#" class="linked" test-id='1' id='1'>resetPassword</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>04:14:47 AM</td>
+<td>04:18:39 AM</td>
 <td>
 <a href="#" class="linked" test-id='6' id='6'>getProfileInfoTest</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>04:14:45 AM</td>
+<td>04:18:37 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='1'>forgotPassword</a>
+<a href="#" class="linked" test-id='2' id='2'>forgotPassword</a>
 </td>
 </tr>
 </tbody>
@@ -1133,13 +1133,13 @@ Connection=keep-alive
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Dec 29, 2024 04:14:45 AM</h3>
+<h3>Dec 29, 2024 04:18:37 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Dec 29, 2024 04:14:49 AM</h3>
+<h3>Dec 29, 2024 04:18:41 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -1209,7 +1209,7 @@ Connection=keep-alive
 </div></div>
 <script>
 var timeline = {
-"resetPassword":2.535,"signupTest":1.931,"loginTest":1.999,"forgotPassword":3.78,"profileUpdate":1.161,"getProfileInfoTest":1.135
+"forgotPassword":3.595,"resetPassword":2.305,"loginTest":1.802,"signupTest":1.802,"profileUpdate":1.129,"getProfileInfoTest":1.121
 };
 </script>
 <div class="row">
